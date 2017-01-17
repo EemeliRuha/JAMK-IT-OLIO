@@ -42,7 +42,16 @@ namespace Viikkotehtavat
         {
             //Tee ohjelma, jossa annetaan oppilaalle koulunumero seuraavan taulukon mukaan (pistemäärä kysytään ja ohjelma tulostaa numeron)
             Console.WriteLine("Anna pistemäärä ja tulostan numeron");
-            string score = Console.ReadLine();
+            string grade = Console.ReadLine();
+            int score = int.Parse(grade);
+            if (score < 1 )
+            {
+                grade = "0";
+            }
+            else if (score < 3, > 2)
+            {
+
+            }
             
         }
     }
