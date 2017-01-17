@@ -2,6 +2,7 @@
 using Veikkaus;
 /// <summary>
 /// A simple example of Blackjack card game
+/// Last modified by Eemeli Ruha 17.01.2017
 /// </summary>
 namespace JAMK.IT
 {
